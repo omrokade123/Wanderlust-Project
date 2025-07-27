@@ -18,6 +18,10 @@ const listingSchema = new Schema({
     price:{
         type:Number,
     },
+    contact:{
+        type: Number,
+        required: true
+    },
     location:{
         type: String
     },
